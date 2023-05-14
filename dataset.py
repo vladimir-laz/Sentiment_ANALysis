@@ -6,6 +6,14 @@ import yaml
 
 class TextClassificationDataset(Dataset):
     def __init__(self, texts, labels, tokenizer):
+        """
+        Initializes the TextClassificationDataset class.
+
+        Args:
+            texts (list): A list of texts to be used for training.
+            labels (list): A list of labels corresponding to the texts.
+            tokenizer (transformers.PreTrainedTokenizer): A tokenizer for encoding the texts.
+        """
         self.texts = texts
         self.labels = labels
         self.tokenizer = tokenizer
@@ -13,9 +21,24 @@ class TextClassificationDataset(Dataset):
             self.config = yaml.load(f, Loader=yaml.FullLoader)
 
     def __len__(self):
+        """
+        Returns the length of the dataset.
+
+        Returns:
+            int: The length of the dataset.
+        """
         return len(self.texts)
 
     def __getitem__(self, idx):
+        """
+        Retrieves an item from the dataset at the specified index.
+
+        Args:
+            idx (int): Index of the item to retrieve.
+
+        Returns:
+            dict: A dictionary containing the original text, input ids, attention mask, and label.
+        """
         text_ = str(self.texts[idx])
 
         label = self.labels[idx]

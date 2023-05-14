@@ -15,6 +15,12 @@ from torch.utils.data import Dataset, DataLoader
 
 class Preprocessing:
     def __init__(self):
+        """
+        Initializes the Preprocessing class. It reads the configuration from "config.yaml",
+        loads the data based on the dataset name specified in the configuration,
+        generates category-integer mapping if required, splits the data if required,
+        and tokenizes the data using the specified tokenizer.
+        """
         with open("config.yaml") as f:
             self.full_config = yaml.load(f, Loader=yaml.FullLoader)
             self.config = self.full_config["preprocessing"]
@@ -37,6 +43,10 @@ class Preprocessing:
         self.tokenize()
 
     def get_mapping(self):
+        """
+        Generates a dictionary that maps unique category labels in the dataset to integer values.
+        If the "save_mapping" option is set to True in the configuration, it saves the mapping to "mapping.yaml".
+        """
         keys = self.df["category"].unique()
         mapping = {key: i for i, key in enumerate(keys)}
         self.df["label"] = self.df["category"].map(mapping)
@@ -46,6 +56,11 @@ class Preprocessing:
                 yaml.dump(mapping, f)
 
     def split_data(self):
+        """
+        Splits the data into a training set and a validation set.
+        The split ratio, seed for random shuffling, and whether to perform stratified sampling are
+        all determined by the configuration. Stratified sampling is used if "split_stratify" is set to True.
+        """
         if self.config["split_stratify"]:
             self.train_df, self.val_df = train_test_split(
                 self.df,
@@ -63,6 +78,11 @@ class Preprocessing:
             )
 
     def tokenize(self):
+        """
+        Tokenizes the text data in the DataFrame using the tokenizer specified in the configuration.
+        Raises a ValueError if the specified tokenizer is not supported.
+        Currently supports "BertTokenizerFast", "RobertaTokenizer", "GPT2Tokenizer", and "DistilBertTokenizer".
+        """
         if self.config["tokenizer"] == "BertTokenizerFast":
             self.tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
         elif self.config["tokenizer"] == "RobertaTokenizer":
@@ -78,6 +98,12 @@ class Preprocessing:
             raise ValueError(f"Tokenizer {self.config['tokenizer']} not supported")
 
     def get_dataloaders(self):
+        """
+        Creates PyTorch DataLoader objects for the training and validation data.
+        The batch size and number of workers are determined by the configuration.
+        The data is shuffled for the training DataLoader if "dataloader_shuffle" is set to True.
+        Returns a dictionary containing the training and validation DataLoaders.
+        """
         train_dataset = TextClassificationDataset(
             texts=self.train_df["text"].to_numpy(),
             labels=self.train_df["label"].to_numpy(),
