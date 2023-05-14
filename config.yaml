@@ -1,0 +1,18 @@
+general:
+  batch_size: 16
+  device: cuda:0
+  dataloader_shuffle: True
+  num_workers: 1
+
+preprocessing:
+  split: True
+  split_ratio: 0.8
+  split_seed: 42
+  split_shuffle: True
+  split_stratify: True
+  generate_mapping: True
+  save_mapping: True
+  tokenizer: DistilBertTokenizer # BertTokenizerFast, RobertaTokenizer, GPT2Tokenizer, DistilBertTokenizer
+  max_length: 256
+  add_special_tokens: True
+  pad_to_max_length: True
