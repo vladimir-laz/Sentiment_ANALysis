@@ -30,7 +30,6 @@ class TextClassificationDataset(Dataset):
             return_tensors="pt",
             truncation=True,
         )
-
         return {
             "data": text_,
             "input_ids": encoding["input_ids"].flatten(),
