@@ -104,15 +104,3 @@ class Preprocessing:
         )
 
         return {"train_dl": train_dl, "val_dl": val_dl}
-
-
-if __name__ == "__main__":
-    preprocessor = Preprocessing("data/bbc-text.csv")
-
-    result = preprocessor.get_dataloaders()
-
-    train_dl = result["train_dl"]
-    val_dl = result["val_dl"]
-    for X in train_dl:
-        print(X)
-        break
