@@ -1,4 +1,5 @@
 general:
+  dataset_name: bbc #bbc, ruSentNE
   batch_size: 16
   device: cuda:0
   dataloader_shuffle: True

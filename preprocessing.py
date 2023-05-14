@@ -14,13 +14,19 @@ from torch.utils.data import Dataset, DataLoader
 
 
 class Preprocessing:
-    def __init__(self, path):
-        self.path = path
-        self.filename = os.path.basename(path)
-        self.df = pd.read_csv(path)
+    def __init__(self):
         with open("config.yaml") as f:
             self.full_config = yaml.load(f, Loader=yaml.FullLoader)
             self.config = self.full_config["preprocessing"]
+
+        if self.full_config["general"]["dataset_name"] == "bbc":
+            self.df = pd.read_csv("data/bbc-text.csv")
+        elif self.full_config["general"]["dataset_name"] == "ruSentNE":
+            self.df = pd.read_csv("data/data_ruSentNE.csv")
+        else:
+            raise ValueError(
+                f"Dataset {self.full_config['general']['dataset_name']} not supported"
+            )
 
         if self.config["generate_mapping"]:
             self.get_mapping()
