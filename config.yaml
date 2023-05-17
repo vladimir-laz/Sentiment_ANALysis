@@ -20,7 +20,7 @@ preprocessing:
   split_stratify: True
   generate_mapping: True
   save_mapping: True
-  tokenizer: DistilBertTokenizer # DistilBertTokenizer, RobertaTokenizer, GPT2Tokenizer, DistilBertTokenizer
+  tokenizer: DistilBertTokenizer # BertTokenizerFast, RobertaTokenizer, GPT2Tokenizer, DistilBertTokenizer
   max_length: 256
   add_special_tokens: True
   pad_to_max_length: True
