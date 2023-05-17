@@ -97,6 +97,22 @@ class Preprocessing:
         else:
             raise ValueError(f"Tokenizer {self.config['tokenizer']} not supported")
 
+    def get_datasets(self):
+        """Creates TextClassificationDataset objects for the training and validation data."""
+        train_dataset = TextClassificationDataset(
+            texts=self.train_df["text"].to_numpy(),
+            labels=self.train_df["label"].to_numpy(),
+            tokenizer=self.tokenizer,
+        )
+
+        val_dataset = TextClassificationDataset(
+            texts=self.val_df["text"].to_numpy(),
+            labels=self.val_df["label"].to_numpy(),
+            tokenizer=self.tokenizer,
+        )
+
+        return {"train_set": train_dataset, "val_set": val_dataset}
+
     def get_dataloaders(self):
         """
         Creates PyTorch DataLoader objects for the training and validation data.

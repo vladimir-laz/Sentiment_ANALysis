@@ -1,9 +1,16 @@
 general:
   dataset_name: ruSentNE #bbc, ruSentNE
-  batch_size: 16
-  device: cuda:0
+  batch_size: 2
+  device: cpu:0
   dataloader_shuffle: True
+  pretrained_model: bert-base-uncased
+  num_classes: 3
   num_workers: 1
+  lr: 1e-6
+  epochs: 5
+  eps: 1e-8
+  optimizer: AdamW #Adam, AdamW, SGD
+  eval_steps: 500
 
 preprocessing:
   split: True
