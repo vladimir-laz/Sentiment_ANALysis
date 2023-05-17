@@ -1,4 +1,5 @@
 from torch import nn
+from transformers import PretrainedConfig
 from transformers import BertModel
 
 class BertClassifier(nn.Module):
@@ -22,3 +23,4 @@ class BertClassifier(nn.Module):
         final_layer = self.relu(linear_output)
 
         return final_layer
+    

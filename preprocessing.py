@@ -7,6 +7,7 @@ from transformers import (
     RobertaTokenizer,
     GPT2Tokenizer,
     DistilBertTokenizer,
+    RobertaTokenizerFast
 )
 from dataset import TextClassificationDataset
 import torch
@@ -85,6 +86,8 @@ class Preprocessing:
         """
         if self.config["tokenizer"] == "BertTokenizerFast":
             self.tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
+        elif self.config["tokenizer"] == "RobertaTokenizerFast":
+            self.tokenizer = RobertaTokenizerFast.from_pretrained('blinoff/roberta-base-russian-v0', max_len=512)
         elif self.config["tokenizer"] == "RobertaTokenizer":
             self.tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
         elif self.config["tokenizer"] == "GPT2Tokenizer":

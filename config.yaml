@@ -1,16 +1,17 @@
 general:
   dataset_name: ruSentNE #bbc, ruSentNE
-  batch_size: 2
+  batch_size: 64
   device: cpu:0
   dataloader_shuffle: True
-  pretrained_model: bert-base-uncased
+  pretrained_model: bert-base-uncased # bert-base-uncased
   num_classes: 3
   num_workers: 1
   lr: 1e-6
   epochs: 5
   eps: 1e-8
   optimizer: AdamW #Adam, AdamW, SGD
-  eval_steps: 500
+  eval_steps: 10
+  logging_steps: 10
 
 preprocessing:
   split: True
@@ -20,7 +21,7 @@ preprocessing:
   split_stratify: True
   generate_mapping: True
   save_mapping: True
-  tokenizer: DistilBertTokenizer # BertTokenizerFast, RobertaTokenizer, GPT2Tokenizer, DistilBertTokenizer
+  tokenizer: BertTokenizerFast # BertTokenizerFast, RobertaTokenizer, GPT2Tokenizer, DistilBertTokenizer, RobertaTokenizerFast
   max_length: 256
   add_special_tokens: True
   pad_to_max_length: True

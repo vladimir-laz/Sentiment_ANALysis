@@ -1,6 +1,6 @@
 from transformers import BertForSequenceClassification, AdamW, get_linear_schedule_with_warmup
 from torch.optim import SGD, Adam
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 import torch
 import numpy as np
 import json
@@ -11,13 +11,14 @@ from metrics import f1_score_func
 from omegaconf import OmegaConf
 
 
-class Trainer:
-    def __init__(self):
+class CustomTrainer:
+    def __init__(self, model):
         self.config = OmegaConf.load('config.yaml').general
-        self.model = BertForSequenceClassification.from_pretrained(self.config.pretrained_model,
-                                                                   num_labels=self.config.num_classes,
-                                                                   output_attentions=False,
-                                                                   output_hidden_states=False)
+        # self.model = BertForSequenceClassification.from_pretrained(self.config.pretrained_model,
+        #                                                            num_labels=self.config.num_classes,
+        #                                                            output_attentions=False,
+        #                                                            output_hidden_states=False)
+        self.model = model
         print(f'Initialized training config with params: {self.config}')
 
     @property
@@ -53,9 +54,9 @@ class Trainer:
             for batch in progress_bar:
                 self.model.zero_grad()
 
-                inputs = {'input_ids': batch['input_ids'],
-                          'attention_mask': batch['attention_mask'],
-                          'labels': batch['label'],
+                inputs = {'input_ids': batch['input_ids'].cuda(),
+                          'attention_mask': batch['attention_mask'].cuda(),
+                          'labels': batch['label'].cuda(),
                           }
 
                 outputs = self.model(**inputs)
@@ -93,9 +94,9 @@ class Trainer:
 
         for batch in val_dl:
 
-            inputs = {'input_ids':      batch['input_ids'],
-                      'attention_mask': batch['attention_mask'],
-                      'labels':         batch['label'],
+            inputs = {'input_ids':      batch['input_ids'].cuda(),
+                      'attention_mask': batch['attention_mask'].cuda(),
+                      'labels':         batch['label'].cuda(),
                      }
 
             with torch.no_grad():
