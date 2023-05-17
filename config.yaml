@@ -10,6 +10,7 @@ general:
   epochs: 5
   eps: 1e-8
   optimizer: AdamW
+  eval_steps: 500
 
 preprocessing:
   split: True
