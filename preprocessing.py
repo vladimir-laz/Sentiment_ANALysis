@@ -30,6 +30,8 @@ class Preprocessing:
             self.df = pd.read_csv("data/bbc-text.csv")
         elif self.full_config["general"]["dataset_name"] == "ruSentNE":
             self.df = pd.read_csv("data/data_ruSentNE.csv")
+        elif self.full_config["general"]["dataset_name"] == "ruSentNE_lemmatized":
+            self.df = pd.read_csv("data/data_ruSentNE_lemmatized.csv")
         else:
             raise ValueError(
                 f"Dataset {self.full_config['general']['dataset_name']} not supported"
@@ -48,8 +50,13 @@ class Preprocessing:
         Generates a dictionary that maps unique category labels in the dataset to integer values.
         If the "save_mapping" option is set to True in the configuration, it saves the mapping to "mapping.yaml".
         """
-        keys = self.df["category"].unique()
-        mapping = {key: i for i, key in enumerate(keys)}
+        # keys = self.df["category"].unique()
+        mapping = {
+            -1: 0,
+            0: 1,
+            1: 2
+        }
+        # mapping = {key: i for i, key in enumerate(keys)}
         self.df["label"] = self.df["category"].map(mapping)
 
         if self.config["save_mapping"]:

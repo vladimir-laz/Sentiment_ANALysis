@@ -1,5 +1,5 @@
 general:
-  dataset_name: ruSentNE #bbc, ruSentNE
+  dataset_name: ruSentNE #bbc, ruSentNE, ruSentNE_lemmatized
   batch_size: 64
   device: cpu:0
   dataloader_shuffle: True
@@ -16,7 +16,7 @@ general:
 preprocessing:
   split: True
   split_ratio: 0.8
-  split_seed: 42
+  split_seed: 69
   split_shuffle: True
   split_stratify: True
   generate_mapping: True
