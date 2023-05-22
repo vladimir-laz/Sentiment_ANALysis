@@ -22,22 +22,22 @@ class Preprocessing:
         generates category-integer mapping if required, splits the data if required,
         and tokenizes the data using the specified tokenizer.
         """
-        with open("config.yaml") as f:
+        with open("../config.yaml") as f:
             self.full_config = yaml.load(f, Loader=yaml.FullLoader)
             self.config = self.full_config["preprocessing"]
 
         if self.full_config["general"]["dataset_name"] == "bbc":
-            self.df = pd.read_csv("data/bbc-text.csv")
+            self.df = pd.read_csv("../data/bbc-text.csv")
         elif self.full_config["general"]["dataset_name"] == "ruSentNE":
-            self.df = pd.read_csv("data/data_ruSentNE.csv")
+            self.df = pd.read_csv("../data/data_ruSentNE.csv")
         elif self.full_config["general"]["dataset_name"] == "ruSentNE_lemmatized":
-            self.df = pd.read_csv("data/data_ruSentNE_lemmatized.csv")
+            self.df = pd.read_csv("../data/data_ruSentNE_lemmatized.csv")
         elif self.full_config["general"]["dataset_name"] == "semEval":
-            df_1 = pd.read_csv(f"data/laptop_trainval.csv")
-            df_2 = pd.read_csv(f"data/restaraunts_trainval.csv")
+            df_1 = pd.read_csv(f"../data/laptop_trainval.csv")
+            df_2 = pd.read_csv(f"../data/restaraunts_trainval.csv")
             self.df = pd.concat([df_1, df_2])
-            df_1_test = pd.read_csv(f"data/laptop_test.csv")
-            df_2_rest = pd.read_csv(f"data/restaraunts_test.csv")
+            df_1_test = pd.read_csv(f"../data/laptop_test.csv")
+            df_2_rest = pd.read_csv(f"../data/restaraunts_test.csv")
             self.df_test = pd.concat([df_1_test, df_2_rest])
         else:
             raise ValueError(

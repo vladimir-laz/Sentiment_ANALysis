@@ -14,7 +14,7 @@ class AspectBasedSentimentAnalysisDataset(Dataset):
             labels (list): A list of labels corresponding to the texts.
             tokenizer (transformers.PreTrainedTokenizer): A tokenizer for encoding the texts.
         """
-        with open("config.yaml") as f:
+        with open("../config.yaml") as f:
             self.config = yaml.load(f, Loader=yaml.FullLoader)
         self.texts = texts
         self.labels = labels
