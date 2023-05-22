@@ -14,6 +14,7 @@ general:
   logging_steps: 10
 
 preprocessing:
+  test_ratio: 0.2
   split: True
   split_ratio: 0.0
   split_seed: 69
