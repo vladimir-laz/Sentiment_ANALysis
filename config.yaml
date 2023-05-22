@@ -1,7 +1,7 @@
 general:
   dataset_name: semEval #bbc, ruSentNE, ruSentNE_lemmatized, semEval
   batch_size: 64
-  device: cpu:0
+  device: cuda
   dataloader_shuffle: True
   pretrained_model: bert-base-uncased # bert-base-uncased
   num_classes: 3
