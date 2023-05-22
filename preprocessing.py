@@ -33,11 +33,11 @@ class Preprocessing:
         elif self.full_config["general"]["dataset_name"] == "ruSentNE_lemmatized":
             self.df = pd.read_csv("data/data_ruSentNE_lemmatized.csv")
         elif self.full_config["general"]["dataset_name"] == "semEval":
-            df_1 = pd.read_csv(f"data/laptops_trainval.csv")
-            df_2 = pd.read_csv(f"data/restaurants_trainval.csv")
+            df_1 = pd.read_csv(f"data/laptop_trainval.csv")
+            df_2 = pd.read_csv(f"data/restaraunts_trainval.csv")
             self.df = pd.concat([df_1, df_2])
             df_1_test = pd.read_csv(f"data/laptop_test.csv")
-            df_2_rest = pd.read_csv(f"data/restaurant_test.csv")
+            df_2_rest = pd.read_csv(f"data/restaraunts_test.csv")
             self.df_test = pd.concat([df_1_test, df_2_rest])
         else:
             raise ValueError(
@@ -63,9 +63,12 @@ class Preprocessing:
         else:
             mapping = {-1: 0, 0: 1, 1: 2}
         # mapping = {key: i for i, key in enumerate(keys)}
-        self.df["label"] = self.df["category"].map(mapping)
         if self.full_config["general"]["dataset_name"] == "semEval":
-            self.df_test["label"] = self.df_test["category"].map(mapping)
+            self.df["label"] = self.df["polarity"].map(mapping)
+        else:
+            self.df["label"] = self.df["category"].map(mapping)
+        if self.full_config["general"]["dataset_name"] == "semEval":
+            self.df_test["label"] = self.df_test["polarity"].map(mapping)
 
         if self.config["save_mapping"]:
             with open(f"mapping.yaml", "w") as f:
@@ -121,19 +124,19 @@ class Preprocessing:
         """Creates TextClassificationDataset objects for the training and validation data."""
         if self.full_config["general"]["dataset_name"] == "semEval":
             train_dataset = AspectBasedSentimentAnalysisDataset(
-                text=self.train_df["Sentence"].to_numpy(),
+                texts=self.train_df["Sentence"].to_numpy(),
                 labels=self.train_df["label"].to_numpy(),
                 aspect_terms=self.train_df["Aspect Term"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
             val_dataset = AspectBasedSentimentAnalysisDataset(
-                text=self.val_df["Sentence"].to_numpy(),
+                texts=self.val_df["Sentence"].to_numpy(),
                 labels=self.val_df["label"].to_numpy(),
                 aspect_terms=self.train_df["Aspect Term"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
             test_dataset = AspectBasedSentimentAnalysisDataset(
-                text=self.df_test["Sentence"].to_numpy(),
+                texts=self.df_test["Sentence"].to_numpy(),
                 labels=self.df_test["label"].to_numpy(),
                 aspect_terms=self.train_df["Aspect Term"].to_numpy(),
                 tokenizer=self.tokenizer,
