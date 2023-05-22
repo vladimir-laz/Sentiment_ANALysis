@@ -5,7 +5,7 @@ import yaml
 
 
 class AspectBasedSentimentAnalysisDataset(Dataset):
-    def __init__(self, texts, labels, tokenizer):
+    def __init__(self, texts, labels, tokenizer, aspect_terms):
         """
         Initializes the AspectBasedSentimentAnalysisDataset class.
 
@@ -16,8 +16,10 @@ class AspectBasedSentimentAnalysisDataset(Dataset):
         """
         with open("config.yaml") as f:
             self.config = yaml.load(f, Loader=yaml.FullLoader)
-
-        df = pd.read_csv("data/")
+        self.texts = texts
+        self.labels = labels
+        self.tokenizer = tokenizer
+        self.aspect_terms = aspect_terms
 
     def __len__(self):
         """
@@ -41,6 +43,9 @@ class AspectBasedSentimentAnalysisDataset(Dataset):
         text_ = str(self.texts[idx])
 
         label = self.labels[idx]
+        entity = self.aspect_terms[idx]
+
+        text_ = entity + text_
 
         encoding = self.tokenizer.encode_plus(
             text_,
@@ -57,6 +62,8 @@ class AspectBasedSentimentAnalysisDataset(Dataset):
             "input_ids": encoding["input_ids"].flatten(),
             "attention_mask": encoding["attention_mask"].flatten(),
             "label": torch.tensor(label, dtype=torch.long),
+        }
+
 
 class TextClassificationDataset(Dataset):
     def __init__(self, texts, labels, tokenizer):
