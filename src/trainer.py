@@ -13,7 +13,7 @@ from omegaconf import OmegaConf
 
 class CustomTrainer:
     def __init__(self, model):
-        self.config = OmegaConf.load('config.yaml').general
+        self.config = OmegaConf.load('../config.yaml').general
         # self.model = BertForSequenceClassification.from_pretrained(self.config.pretrained_model,
         #                                                            num_labels=self.config.num_classes,
         #                                                            output_attentions=False,
