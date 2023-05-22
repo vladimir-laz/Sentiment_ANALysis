@@ -59,7 +59,7 @@ class Preprocessing:
         """
         # keys = self.df["category"].unique()
         if self.full_config["general"]["dataset_name"] == "semEval":
-            mapping = {"negative": -1, "neutral": 0, "positive": 1}
+            mapping = {"negative": 0, "neutral": 1, "positive": 2}
         else:
             mapping = {-1: 0, 0: 1, 1: 2}
         # mapping = {key: i for i, key in enumerate(keys)}
