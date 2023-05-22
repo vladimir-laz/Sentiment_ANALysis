@@ -59,7 +59,7 @@ class Preprocessing:
         """
         # keys = self.df["category"].unique()
         if self.full_config["general"]["dataset_name"] == "semEval":
-            mapping = {"negative": 0, "neutral": 1, "positive": 2}
+            mapping = {"neutral": 0, "negative": 1, "positive": 1}
         else:
             mapping = {-1: 0, 0: 1, 1: 2}
         # mapping = {key: i for i, key in enumerate(keys)}
@@ -132,15 +132,20 @@ class Preprocessing:
             val_dataset = AspectBasedSentimentAnalysisDataset(
                 texts=self.val_df["Sentence"].to_numpy(),
                 labels=self.val_df["label"].to_numpy(),
-                aspect_terms=self.train_df["Aspect Term"].to_numpy(),
+                aspect_terms=self.val_df["Aspect Term"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
             test_dataset = AspectBasedSentimentAnalysisDataset(
                 texts=self.df_test["Sentence"].to_numpy(),
                 labels=self.df_test["label"].to_numpy(),
-                aspect_terms=self.train_df["Aspect Term"].to_numpy(),
+                aspect_terms=self.df_test["Aspect Term"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
+            return {
+                "train_set": train_dataset,
+                "val_set": val_dataset,
+                "test_set": test_dataset,
+            }
         else:
             train_dataset = TextClassificationDataset(
                 texts=self.train_df["text"].to_numpy(),
@@ -154,11 +159,10 @@ class Preprocessing:
                 tokenizer=self.tokenizer,
             )
 
-        return {
-            "train_set": train_dataset,
-            "val_set": val_dataset,
-            "test_set": test_dataset,
-        }
+            return {
+                "train_set": train_dataset,
+                "val_set": val_dataset,
+            }
 
     def get_dataloaders(self):
         """
@@ -190,6 +194,7 @@ class Preprocessing:
                 shuffle=False,
                 num_workers=self.full_config["general"]["num_workers"],
             )
+            return {"train_dl": train_dl, "val_dl": val_dl, "test_dl": test_dl}
 
         else:
             train_dataset = TextClassificationDataset(
@@ -217,4 +222,4 @@ class Preprocessing:
                 num_workers=self.full_config["general"]["num_workers"],
             )
 
-        return {"train_dl": train_dl, "val_dl": val_dl, "test_dl": test_dl}
+            return {"train_dl": train_dl, "val_dl": val_dl, "test_dl": test_dl}

@@ -1,13 +1,13 @@
 general:
   dataset_name: semEval #bbc, ruSentNE, ruSentNE_lemmatized, semEval
-  batch_size: 64
-  device: cuda
+  batch_size: 16
+  device: cpu
   dataloader_shuffle: True
   pretrained_model: bert-base-uncased # bert-base-uncased
   num_classes: 3
   num_workers: 1
   lr: 1e-6
-  epochs: 5
+  epochs: 2
   eps: 1e-8
   optimizer: AdamW #Adam, AdamW, SGD
   eval_steps: 10
@@ -16,7 +16,7 @@ general:
 preprocessing:
   test_ratio: 0.15
   split: True
-  split_ratio: 0.2
+  split_ratio: 0.8
   split_seed: 69
   split_shuffle: True
   split_stratify: True
