@@ -1,0 +1,826 @@
+The following columns in the training set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+loading file vocab.txt from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/vocab.txt
+loading file tokenizer.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer_config.json
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/config.json
+Model config BertConfig {
+  "_name_or_path": "coderSounak/finetuned_twitter_sentiment_LSTM",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bidirectional": true,
+  "classifier_dropout": null,
+  "finetuning_task": "opentable",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 300,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 1,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "update_embeddings": false,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading weights file pytorch_model.bin from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/pytorch_model.bin
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+All the weights of BertForSequenceClassification were initialized from the model checkpoint at coderSounak/finetuned_twitter_sentiment_LSTM.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+loading file vocab.txt from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/vocab.txt
+loading file tokenizer.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer_config.json
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading file vocab.txt from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/vocab.txt
+loading file tokenizer.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer_config.json
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/config.json
+Model config BertConfig {
+  "_name_or_path": "coderSounak/finetuned_twitter_sentiment_LSTM",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bidirectional": true,
+  "classifier_dropout": null,
+  "finetuning_task": "opentable",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 300,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 1,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "update_embeddings": false,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading weights file pytorch_model.bin from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/pytorch_model.bin
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+All the weights of BertForSequenceClassification were initialized from the model checkpoint at coderSounak/finetuned_twitter_sentiment_LSTM.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+***** Running training *****
+  Num examples = 7585
+  Num Epochs = 2
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 950
+  Number of trainable parameters = 11611575
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+The following columns in the training set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+loading file vocab.txt from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/vocab.txt
+loading file tokenizer.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/tokenizer_config.json
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--bert-base-uncased/snapshots/a265f773a47193eed794233aa2a0f0bb6d3eaa63/config.json
+Model config BertConfig {
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading configuration file config.json from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/config.json
+Model config BertConfig {
+  "_name_or_path": "coderSounak/finetuned_twitter_sentiment_LSTM",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bidirectional": true,
+  "classifier_dropout": null,
+  "finetuning_task": "opentable",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 300,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 1,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "torch_dtype": "float32",
+  "transformers_version": "4.24.0",
+  "type_vocab_size": 2,
+  "update_embeddings": false,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+loading weights file pytorch_model.bin from cache at /home/lazarev/.cache/huggingface/hub/models--coderSounak--finetuned_twitter_sentiment_LSTM/snapshots/18ae77a74e6829980fafb1357e85be4105c10dde/pytorch_model.bin
+All model checkpoint weights were used when initializing BertForSequenceClassification.
+All the weights of BertForSequenceClassification were initialized from the model checkpoint at coderSounak/finetuned_twitter_sentiment_LSTM.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertForSequenceClassification for predictions without further training.
+dataset_name: ruSentNE
+batch_size: 16
+device: cpu
+dataloader_shuffle: True
+pretrained_model: bert-base-uncased
+num_classes: 3
+num_workers: 1
+lr: 1e-06
+epochs: 2
+eps: 1e-08
+optimizer: AdamW
+eval_steps: 10
+logging_steps: 10
+***** Running training *****
+  Num examples = 7585
+  Num Epochs = 2
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 950
+  Number of trainable parameters = 11611575
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+The following columns in the training set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 1897
+  Batch size = 16
+The following columns in the evaluation set don't have a corresponding argument in `BertForSequenceClassification.forward` and have been ignored: data. If data are not expected by `BertForSequenceClassification.forward`,  you can safely ignore this message.

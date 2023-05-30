@@ -9,7 +9,7 @@ from transformers import (
     DistilBertTokenizer,
     RobertaTokenizerFast,
 )
-from dataset import TextClassificationDataset, AspectBasedSentimentAnalysisDataset
+from src.dataset import TextClassificationDataset, AspectBasedSentimentAnalysisDataset
 import torch
 from torch.utils.data import Dataset, DataLoader
 
@@ -22,22 +22,22 @@ class Preprocessing:
         generates category-integer mapping if required, splits the data if required,
         and tokenizes the data using the specified tokenizer.
         """
-        with open("../config.yaml") as f:
+        with open("config.yaml") as f:
             self.full_config = yaml.load(f, Loader=yaml.FullLoader)
             self.config = self.full_config["preprocessing"]
 
         if self.full_config["general"]["dataset_name"] == "bbc":
-            self.df = pd.read_csv("../data/bbc-text.csv")
+            self.df = pd.read_csv("data/bbc-text.csv")
         elif self.full_config["general"]["dataset_name"] == "ruSentNE":
-            self.df = pd.read_csv("../data/data_ruSentNE.csv")
+            self.df = pd.read_csv("data/data_ruSentNE.csv")
         elif self.full_config["general"]["dataset_name"] == "ruSentNE_lemmatized":
-            self.df = pd.read_csv("../data/data_ruSentNE_lemmatized.csv")
+            self.df = pd.read_csv("data/data_ruSentNE_lemmatized.csv")
         elif self.full_config["general"]["dataset_name"] == "semEval":
-            df_1 = pd.read_csv(f"../data/laptop_trainval.csv")
-            df_2 = pd.read_csv(f"../data/restaraunts_trainval.csv")
+            df_1 = pd.read_csv(f"data/laptop_trainval.csv")
+            df_2 = pd.read_csv(f"data/restaraunts_trainval.csv")
             self.df = pd.concat([df_1, df_2])
-            df_1_test = pd.read_csv(f"../data/laptop_test.csv")
-            df_2_rest = pd.read_csv(f"../data/restaraunts_test.csv")
+            df_1_test = pd.read_csv(f"data/laptop_test.csv")
+            df_2_rest = pd.read_csv(f"data/restaraunts_test.csv")
             self.df_test = pd.concat([df_1_test, df_2_rest])
         else:
             raise ValueError(
@@ -122,29 +122,22 @@ class Preprocessing:
 
     def get_datasets(self):
         """Creates TextClassificationDataset objects for the training and validation data."""
-        if self.full_config["general"]["dataset_name"] == "semEval":
+        if self.full_config["general"]["dataset_name"] in ["semEval", "ruSentNE", "ruSentNE_lemmatized"]:
             train_dataset = AspectBasedSentimentAnalysisDataset(
-                texts=self.train_df["Sentence"].to_numpy(),
+                texts=self.train_df["text"].to_numpy(),
                 labels=self.train_df["label"].to_numpy(),
-                aspect_terms=self.train_df["Aspect Term"].to_numpy(),
+                aspect_terms=self.train_df["entity"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
             val_dataset = AspectBasedSentimentAnalysisDataset(
-                texts=self.val_df["Sentence"].to_numpy(),
+                texts=self.val_df["text"].to_numpy(),
                 labels=self.val_df["label"].to_numpy(),
-                aspect_terms=self.val_df["Aspect Term"].to_numpy(),
-                tokenizer=self.tokenizer,
-            )
-            test_dataset = AspectBasedSentimentAnalysisDataset(
-                texts=self.df_test["Sentence"].to_numpy(),
-                labels=self.df_test["label"].to_numpy(),
-                aspect_terms=self.df_test["Aspect Term"].to_numpy(),
+                aspect_terms=self.val_df["entity"].to_numpy(),
                 tokenizer=self.tokenizer,
             )
             return {
                 "train_set": train_dataset,
                 "val_set": val_dataset,
-                "test_set": test_dataset,
             }
         else:
             train_dataset = TextClassificationDataset(
@@ -171,11 +164,10 @@ class Preprocessing:
         The data is shuffled for the training DataLoader if "dataloader_shuffle" is set to True.
         Returns a dictionary containing the training and validation DataLoaders.
         """
-        if self.full_config["general"]["dataset_name"] == "semEval":
+        if self.full_config["general"]["dataset_name"] in ["semEval", "ruSentNE", "ruSentNE_lemmatized"]:
             res = self.get_datasets()
             train_set = res["train_set"]
             val_set = res["val_set"]
-            test_set = res["test_set"]
             train_dl = DataLoader(
                 train_set,
                 batch_size=self.full_config["general"]["batch_size"],
@@ -188,13 +180,7 @@ class Preprocessing:
                 shuffle=False,
                 num_workers=self.full_config["general"]["num_workers"],
             )
-            test_dl = DataLoader(
-                test_set,
-                batch_size=self.full_config["general"]["batch_size"],
-                shuffle=False,
-                num_workers=self.full_config["general"]["num_workers"],
-            )
-            return {"train_dl": train_dl, "val_dl": val_dl, "test_dl": test_dl}
+            return {"train_dl": train_dl, "val_dl": val_dl}
 
         else:
             train_dataset = TextClassificationDataset(

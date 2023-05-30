@@ -1,5 +1,5 @@
 general:
-  dataset_name: semEval #bbc, ruSentNE, ruSentNE_lemmatized, semEval
+  dataset_name: ruSentNE_lemmatized #bbc, ruSentNE, ruSentNE_lemmatized, semEval
   batch_size: 16
   device: cpu
   dataloader_shuffle: True

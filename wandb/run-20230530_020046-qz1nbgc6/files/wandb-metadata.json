@@ -1,0 +1,84 @@
+{
+    "os": "Linux-4.15.0-175-generic-x86_64-with-glibc2.27",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-29T23:00:47.386187",
+    "startedAt": "2023-05-29T23:00:46.620613",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "study/nlp/Sentiment_ANALysis/yet_enother_pipeline.ipynb",
+    "root": "/home/lazarev/disk/lazarev/study/nlp/Sentiment_ANALysis",
+    "git": {
+        "remote": "https://github.com/vladimir-laz/Sentiment_ANALysis.git",
+        "commit": "ffeb98a2837b444bb4984f3fdf15e7093a61e9fc"
+    },
+    "email": "vladimir.lazarev.99@gmail.com",
+    "host": "Crystal-NMD-Budennyy",
+    "username": "lazarev",
+    "executable": "/home/lazarev/disk/lazarev/miniconda3/envs/ftcp/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 98.36709976196289,
+        "used": 93.5922622680664
+    },
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 62.91292190551758
+    }
+}
